@@ -16,16 +16,16 @@
 	<meta name="mobile-web-app-capable" content="yes">
 	<title>Frappe Desk</title>
 	<link rel="shortcut icon"
-		href="{{ favicon or "/assets/frappe/images/favicon.png" }}" type="image/x-icon">
+		href="{{ favicon or "/assets/frappe/images/logo.png" }}" type="image/x-icon">
 	<link rel="icon"
-		href="{{ favicon or "/assets/frappe/images/favicon.png" }}" type="image/x-icon">
+		href="{{ favicon or "/assets/frappe/images/logo.png" }}" type="image/x-icon">
 	{% for include in include_css -%}
 	<link type="text/css" rel="stylesheet" href="{{ include }}?ver={{ build_version }}">
 	{%- endfor -%}
 </head>
 <body>
 	<div class="centered splash" style="width: 100px; height: 100px;">
-        <img src="{{ splash_image or "/assets/frappe/images/frappe-framework-logo.png" }}">
+        <img src="{{ splash_image or "/assets/frappe/images/logo.png" }}">
     </div>
 	<div class="main-section">
 		<header></header>
