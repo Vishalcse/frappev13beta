@@ -57,7 +57,7 @@
   background: transparent;
 }
 #search-modal .modal-header {
-  background: rgb(111, 41, 224);
+  background: rgb(241, 238, 18);
   width: 100%;
 }
 #search-modal .modal-header form {
@@ -221,5 +221,5 @@
 }
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-brand {
-  color: #8D99A6;
+  color: #e4b724;
 }
