@@ -27,6 +27,11 @@ page_js = {
 	"setup-wizard": "public/js/frappe/setup_wizard.js"
 }
 
+website_context = {
+				“favicon”: “/assets/your_app/images/logo.png”,
+				“splash_image”: “/assets/your_app/images/logo.png”
+}
+
 # website
 app_include_js = [
 	"assets/js/libs.min.js",
