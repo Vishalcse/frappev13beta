@@ -57,7 +57,7 @@
   background: transparent;
 }
 #search-modal .modal-header {
-  background: #fff;
+  background: rgb(111, 41, 224);
   width: 100%;
 }
 #search-modal .modal-header form {
