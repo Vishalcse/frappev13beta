@@ -43,7 +43,7 @@ body[data-route="desktop"] .navbar-default {
 .app-icon i {
   font-size: 32px;
   min-width: 32px;
-  color: #b081ee;
+  color: #fafbfc;
   display: inline-block;
   transition: 0.2s;
   -webkit-transition: 0.2s;
