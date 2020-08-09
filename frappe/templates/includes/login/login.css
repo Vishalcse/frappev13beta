@@ -1,10 +1,8 @@
 .login-container {
   display: grid;
-  grid-template-columns: 4fr 7fr;
   position: absolute;
-  background-color: #9e9898;
+  background-color: #ffffff;
   width: 100%;
-  box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.06);
   height: 100%;
 }
 /*.side-main {
