@@ -84,7 +84,7 @@
 }
 .dropdown-help .dropdown-menu .input-group {
   width: 100%;
-  background-color: #446ba5;
+  background-color: #f5f7fa;
   padding: 8px 12px;
 }
 .dropdown-help .dropdown-menu input {
@@ -92,7 +92,7 @@
   padding: 5px 10px;
   outline: none;
   border-radius: 3px 0 0 3px;
-  border: 1px solid #d1d8dd;
+  border: 1px solid #827be7;
   opacity: 0.9;
   line-height: 1.5;
 }
