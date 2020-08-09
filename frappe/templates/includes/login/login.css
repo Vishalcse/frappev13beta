@@ -59,12 +59,12 @@
   align-content: center;
   padding: 20px 80px;
   margin: 10px 0px;
-  /*border-radius: 0px;*/
+  border-radius: 3px;
   outline: none;
   border: none;
   border-bottom: 3px solid #e5e5e5;
   font-size: 20px;
-  box-shadow: 6px 6px 18px rgba(197, 194, 194, 0.06);
+  box-shadow: 6px 6px 18px rgba(243, 18, 18, 0.06);
   /* text-transform: uppercase; */
 }
 /*.user-img {
