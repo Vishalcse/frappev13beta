@@ -58,7 +58,7 @@
   align-content: center;
   padding: 20px 80px;
   margin: 10px 0px;
-  border-radius: 10px;
+  /*border-radius: 0px;*/
   outline: none;
   border: none;
   border-bottom: 3px solid #e5e5e5;
