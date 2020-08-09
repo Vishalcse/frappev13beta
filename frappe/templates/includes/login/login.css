@@ -26,7 +26,7 @@
 
 .login-section {
   padding: 50px 10px;
-  width: 40%;
+  width: 45%;
   margin: auto;
   position: relative;
   top: 50%;
@@ -61,9 +61,9 @@
   /*border-radius: 0px;*/
   outline: none;
   border: none;
-  border-bottom: 3px solid #141414;
+  border-bottom: 3px solid #e5e5e5;
   font-size: 20px;
-  box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.06);
+  box-shadow: 6px 6px 18px rgba(197, 194, 194, 0.06);
   /* text-transform: uppercase; */
 }
 /*.user-img {
