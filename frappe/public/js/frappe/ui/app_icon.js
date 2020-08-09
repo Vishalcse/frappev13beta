@@ -17,7 +17,7 @@ frappe.ui.app_icon = {
 		}
 
 		if(!color) {
-			color = '#4aa3df';
+			color = '#8a00e6';
 		}
 
 		// first letter
