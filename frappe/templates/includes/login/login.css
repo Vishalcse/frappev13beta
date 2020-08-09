@@ -23,7 +23,7 @@
   border-radius: 5px;
   height: 100%;
 }
-
+*/
 .login-section {
   padding: 50px 30px;
   width: 55%;
@@ -31,7 +31,7 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-}*/
+}
 .login-header {
   text-align: center;
   font-size: 60px;
