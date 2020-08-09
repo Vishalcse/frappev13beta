@@ -26,10 +26,11 @@
 
 .login-section {
   padding: 50px 10px;
-  width: 45%;
+  width: 40%;
   margin: auto;
   position: relative;
   top: 50%;
+  border: #073a70;
   transform: translateY(-50%);
 }
 .login-header {
