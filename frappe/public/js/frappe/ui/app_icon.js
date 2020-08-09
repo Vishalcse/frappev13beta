@@ -13,7 +13,7 @@ frappe.ui.app_icon = {
 		}
 		var icon_style = "";
 		if(module.reverse) {
-			icon_style = "color: #36414C;";
+			icon_style = "color: #8a00e6;";
 		}
 
 		if(!color) {
