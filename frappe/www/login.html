@@ -16,114 +16,52 @@
 		</div>
 	</noscript>
 
-<body>
+	<body>
 	
-	<div class="limiter">
-		<div class="container-login100">
-			<div class="wrap-login100 p-t-50 p-b-90">
-				<form class="login100-form validate-form flex-sb flex-w">
-					<span class="login100-form-title p-b-51">
-						Login
-					</span>
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Username is required">
-						<form class="form-signin form-login" role="form">
+		<div class="limiter">
+			<div class="container-login100">
+				<div class="wrap-login100 p-t-50 p-b-90">
+					<form class="login100-form validate-form flex-sb flex-w">
+						<span class="login100-form-title p-b-51">
+							Login
+						</span>
+	
+						
+						<div class="wrap-input100 validate-input m-b-16" data-validate = "Username is required">
+							<input class="input100" type="text" name="username" placeholder="Username">
 							<span class="focus-input100"></span>
-							<input type="text" id="login_email"
-								class="form-control"
-								placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('Email Address') }}{% endif %}"
-								required autofocus>
-					</div>
-
-			
-
-			<div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required>
-				<input class="input100" type="password" name="pass"
-						class="form-control" placeholder="{{ _('Password') }}" required>
-						<span class="focus-input100"></span>
-
-				<span toggle="#login_password" class="toggle-password text-muted">{{ _('Show') }}</span>
-			</div>
-
-			<button class="btn btn-sm btn-primary btn-block btn-login" type="submit">
-				{{ _("Login") }}</button>
-
-			{% if ldap_settings and ldap_settings.enabled %}
-			<button class="btn btn-sm btn-default btn-block btn-login btn-ldap-login">
-				{{ _("Login with LDAP") }}</button>
-			{% endif %}
-		</form>
-	</div>
-	<!--<div class='form-footer'>
-
-			<div class='social-logins'>
-			{%- if social_login -%}
-				<h6>{{ _("Or login with") }}</h6>
-
-				<p class="text-center" style="margin-top: 15px">
-				{% for provider in provider_logins %}
-					<a href="{{ provider.auth_url }}"
-						class="btn btn-default btn-sm btn-social btn-{{ provider.name }}">
-							{{ provider.icon }} {{ provider.provider_name }}</a>
-				{% endfor %}
-				</p>
-			{%- endif -%}
-			</div>
+						</div>
+						
+						
+						<div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required">
+							<input class="input100" type="password" name="pass" placeholder="Password">
+							<span class="focus-input100"></span>
+						</div>
+						
+						<div class="flex-sb-m w-full p-t-3 p-b-24">
+							<div class="contact100-form-checkbox">
+								<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+								<label class="label-checkbox100" for="ckb1">
+									Remember me
+								</label>
+							</div>
 	
-	<!--{%- if not disable_signup -%}
-		<p class="text-center sign-up-message">
-			<a href="#signup" style="margin-top: -2px;">{{ _("Don't have an account? Sign up") }}</a>
-		</p>
-	{%- endif -%}
-	<p class="text-center forgot-password-message">
-		<a href="#forgot">{{ _("Forgot Password?") }}</a></p>
-	</div>>
-</section>
-<section class='for-signup {{ "signup-disabled" if disable_signup else "" }}'>
-	<div class="login-content page-card" style="margin-top: 20px;">
-	{%- if not disable_signup -%}
-		<form class="form-signin form-signup hide" role="form">
-			<div class="page-card-head">
-				<span class="indicator blue" data-text="{{ _('Sign Up') }}"></span>
+							<div>
+								<a href="#" class="txt1">
+									Forgot?
+								</a>
+							</div>
+						</div>
+	
+						<div class="container-login100-form-btn m-t-17">
+							<button class="login100-form-btn">
+								Login
+							</button>
+						</div>
+	
+					</form>
+				</div>
 			</div>
-			<input type="text" id="signup_fullname"
-				class="form-control" placeholder="{{ _('Full Name') }}" required autofocus>
-			<input type="email" id="signup_email"
-				class="form-control" placeholder="{{ _('Email Address') }}" required>
-			<button class="btn btn-sm btn-primary btn-block btn-signup" type="submit">{{ _("Sign up") }}</button>
-		</form>
-	{%- else -%}
-		<div class='page-card-head'>
-			<span class='indicator darkgrey'>{{_("Signup Disabled")}}</span>
 		</div>
-		<p>{{_("Signups have been disabled for this website.")}}</p>
-		<div><a href='/' class='btn btn-primary btn-sm'>{{ _("Home") }}</a></div>
-	{%- endif -%}
-	</div>
-	<div class='form-footer'>
-		<a href="#login" class="blue">{{ _("Have an account? Login") }}</a>
-	</div>
-
-</section>
-
-<section class='for-forgot'>
-	<div class="login-content page-card" style="margin-top: 20px;">
-	<form class="form-signin form-forgot hide" role="form">
-		<div class="page-card-head">
-			<span class="indicator blue" data-text="{{ _('Forgot Password') }}"></span></div>
-		<input type="email" id="forgot_email"
-			class="form-control" placeholder="{{ _('Email Address') }}" required autofocus>
-		<button class="btn btn-sm btn-primary btn-block btn-forgot" type="submit">{{ _("Reset Password") }}</button>
-	</form>
-	</div>
-	<div class='form-footer'>
-		<a href="#login">{{ _("Back to Login") }}</a>
-	</div>
-</section>
-</div>
-{% endblock %}
-
-{% block script %}
-	<script>{% include "templates/includes/login/login.js" %}</script>
-{% endblock %}
-
-{% block sidebar %}{% endblock %}
+		
+	</body>
