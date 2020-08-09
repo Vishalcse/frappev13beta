@@ -13,11 +13,11 @@ frappe.ui.app_icon = {
 		}
 		var icon_style = "";
 		if(module.reverse) {
-			icon_style = "color: #8a00e6;";
+			icon_style = "color: #36414C;";
 		}
 
 		if(!color) {
-			color = '#8a00e6';
+			color = '#4aa3df';
 		}
 
 		// first letter
