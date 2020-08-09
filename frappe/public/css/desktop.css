@@ -1,6 +1,6 @@
 body[data-route=""] .navbar-default,
 body[data-route="desktop"] .navbar-default {
-  background-color: rgba(164, 122, 241, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   border-color: rgba(54, 65, 76, 0.1);
 }
 #page-desktop {
@@ -43,7 +43,7 @@ body[data-route="desktop"] .navbar-default {
 .app-icon i {
   font-size: 32px;
   min-width: 32px;
-  color: #fafbfc;
+  color: #b081ee;
   display: inline-block;
   transition: 0.2s;
   -webkit-transition: 0.2s;
