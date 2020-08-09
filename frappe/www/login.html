@@ -25,21 +25,21 @@
 					<span class="login100-form-title p-b-51">
 						Login
 					</span>
-<section class='for-login'>
-	<div class="wrap-input100 validate-input m-b-16" data-validate = "Username is required">
-		<form class="form-signin form-login" role="form">
-			<div class="page-card-head">
-				<span class="focus-input100"></span>
-			</div>
+					<div class="wrap-input100 validate-input m-b-16" data-validate = "Username is required">
+						<form class="form-signin form-login" role="form">
+							<span class="focus-input100"></span>
+							<input type="text" id="login_email"
+								class="form-control"
+								placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('Email Address') }}{% endif %}"
+								required autofocus>
+					</div>
 
-			<input type="text" id="login_email"
-				class="form-control"
-				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('Email Address') }}{% endif %}"
-				required autofocus>
+			
 
-			<div class="password-field" style="position: relative;">
-				<input type="password" id="login_password"
+			<div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required>
+				<input class="input100" type="password" name="pass"
 						class="form-control" placeholder="{{ _('Password') }}" required>
+						<span class="focus-input100"></span>
 
 				<span toggle="#login_password" class="toggle-password text-muted">{{ _('Show') }}</span>
 			</div>
