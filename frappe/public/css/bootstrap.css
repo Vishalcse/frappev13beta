@@ -6612,12 +6612,12 @@ h4.modal-title {
 }
 
 .sidebar-item.selected, .sidebar-item:hover {
-  background-color: #74076e !important;
+  background-color: #8000a0 !important;
   color: white !important;
 }
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
   color: #fff !important;
   text-decoration: none;
-  background-color:#74076e !important;
+  background-color:#8000a0 !important;
 }
