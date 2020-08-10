@@ -1,11 +1,11 @@
 .hero-and-content {
-	background-color: #6ae775;
+	background-color: #f5f7fa;
 }
 .page-card {
 	max-width: 360px;
 	padding: 15px;
 	margin: 70px auto;
-	border: 1px solid #02111b;
+	border: 1px solid #d1d8dd;
 	border-radius: 4px;
 	background-color: #fff;
 	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
