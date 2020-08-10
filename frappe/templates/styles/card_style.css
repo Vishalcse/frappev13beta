@@ -7,7 +7,7 @@
 	margin: 70px auto;
 	border: 1px solid #d1d8dd;
 	border-radius: 4px;
-	background-color: #fff;
+	background-color: rgb(122, 5, 158);
 	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
 .page-card .page-card-head {
@@ -17,7 +17,7 @@
 	border-bottom: 1px solid #d1d8dd;
 }
 .page-card .page-card-head .indicator {
-	color: #36414C;
+	color: #fafafa;
 	font-size: 14px;
 }
 .page-card .page-card-head .indicator::before {
