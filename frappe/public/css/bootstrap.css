@@ -6610,3 +6610,14 @@ h4.modal-title {
 .navbar-search-icon {
   color: #b8c2cb;
 }
+
+.sidebar-item.selected, .sidebar-item:hover {
+  background-color: #74076e !important;
+  color: white !important;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  color: #fff !important;
+  text-decoration: none;
+  background-color:#74076e !important;
+}
