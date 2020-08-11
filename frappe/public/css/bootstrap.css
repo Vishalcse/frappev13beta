@@ -6622,11 +6622,11 @@ h4.modal-title {
   background-color:#8000a0 !important;
 }
 
-.page-content-wrapper{
-  margin: 0 !important;
+.page-content-wrapper {
+  margin: -2 !important;
 }
 
-.container{
+.container {
   padding: 0 !important;
   margin: 0 !important;
 }
