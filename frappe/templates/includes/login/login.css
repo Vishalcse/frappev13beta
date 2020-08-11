@@ -49,6 +49,7 @@ body {
 .header-highlight {
   color: #750380;
   font-weight: 500;
+  font-size: smaller;
 }
 .login-sub-header {
   text-align: center;
