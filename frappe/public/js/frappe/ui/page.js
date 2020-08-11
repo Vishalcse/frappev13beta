@@ -71,6 +71,7 @@ frappe.ui.Page = Class.extend({
 			// nesting under col-sm-12 for consistency
 			this.add_view("main", '<div class="row layout-main">\
 					<div class="col-md-12 layout-main-section-wrapper">\
+					<div class="desk-sidebar"></div>\
 						<div class="layout-main-section"></div>\
 						<div class="layout-footer hide"></div>\
 					</div>\
