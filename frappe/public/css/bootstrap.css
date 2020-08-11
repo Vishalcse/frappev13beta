@@ -6623,8 +6623,8 @@ h4.modal-title {
 }
 
 .awesomplete>ul>li:hover, .awesomplete>ul>li[aria-selected=true]{
+  color: #fff !important;
+  text-decoration: none;
   background-color:#8000a0 !important;
-    color: #fff !important;
-    text-shadow: none;
 
 }
