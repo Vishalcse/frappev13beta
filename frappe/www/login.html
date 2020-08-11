@@ -1,19 +1,13 @@
+{% extends "templates/web.html" %}
 
-
- {% extends "templates/web.html" %} 
-
-
-{% block style %} 
- <style> 
-	 {% include "templates/includes/login/login.css" %} 
-</style> 
+{% block style %}
+<style>
+	{% include "templates/includes/login/login.css" %}
+</style>
 {% endblock %}
 
-{% block page_content %} 
-{{ for_test }} 
-
-	
-
+{% block page_content %}
+<!-- {{ for_test }} -->
 <div style='min-height: 360px'>
 	<noscript>
 		<div class="text-center my-5">
@@ -21,45 +15,30 @@
 			<p class="text-muted">{{ _("You need to enable JavaScript for your app to work.") }}<br>{{ _("To enable it follow the instructions in the following link: {0}").format("<a href='https://enable-javascript.com/'>enable-javascript.com</a></p>") }}
 		</div>
 	</noscript>
-<section class='for-login'>
+<!--<section class='for-login'>
 	<div class="login-content page-card" style="margin-top: 30px;">-->
 		
 		<div class="login-container">
-			<!-- <div class="side-main">
-			  <img src="/assets/frappe/images/image3.jpg" alt="Side Img" class="side-img" />
-			</div> -->
-		
-			<div class="page-card-head">
+			<!--<div class="page-card-head">
 				<span class="indicator blue" data-text="{{ _('Login') }}"></span>
 			</div>-->
 			<div class="main">
 				<div class="login-section">
-				  <h1 class="login-header"> <label class="header-highlight">Login</label></h1>
-				  <img src="/TECHWEIDO.png" class="company-logo"/>
+				  <h1 class="login-header"><label class="header-highlight">Login</label></h1>
+				  <img src="/assets/frappe/images/logo.png" class="company-logo"/>
+				  <!--<h3 class="login-sub-header">WELCOME</h3>-->
 				  <form class="form-signin form-login" role="form">
 					
 		<div>
 			<input class="input" type="text" id="login_email"  
 				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('USERNAME') }}{% endif %}"
 				required autofocus>
-				<!--<p style="color: red;" *ngIF=" (username.dirty || username.touched) && username.errors?.required"> Email is Required</p>-->
 		</div>
 		<div>
 			<input class="input" type="password" id="login_password"
 			class="form-control" placeholder="{{ _('Password') }}" required> 
-			<!--<span toggle="#login_password" class="fa fa-fw fa-eye toggle-password text-muted"></span>-->
+			
 		</div>
-			<!--<button class="view-password-button" (click)= "hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide" type="submit">
-				{{ _("Login") }}
-				<p *ngIf="hide"><i class="fa fa-eye-slash" style="font-size:25px;"></i></p>
-				<p *ngIf="!hide"><i class="fa fa-eye" style="font-size: 25px;"></i></p>
-			</button>
-			<p style="color: red;" *ngIf="(password.dirt || password.touched) && password.errors?.required">Password is Required</p>
-		</div>
-		
-
-	</button><button class="button" type="submit" (click)="onSubmit()">
-		{{_("Login") }}-->
 		<button class="button" type="submit">
 			{{ _("Login") }}</button>
 			{% if ldap_settings and ldap_settings.enabled %}
@@ -69,69 +48,12 @@
 		</form>
 	</div>
 	</div>
-
-	<!--<div class='form-footer'>
-
-			<div class='social-logins'>
-			{%- if social_login -%}
-				<h6>{{ _("Or login with") }}</h6>
-
-				<p class="text-center" style="margin-top: 15px">
-				{% for provider in provider_logins %}
-					<a href="{{ provider.auth_url }}"
-						class="btn btn-default btn-sm btn-social btn-{{ provider.name }}">
-							{{ provider.icon }} {{ provider.provider_name }}</a>
-				{% endfor %}
-				</p>
-			{%- endif -%}
-			</div>
-
-	{%- if not disable_signup -%}
-		<p class="text-center sign-up-message">
-			<a href="#signup" style="margin-top: -2px;">{{ _("Don't have an account? Sign up") }}</a>
-		</p>
-	{%- endif -%}
-	<p class="text-center forgot-password-message">
-		<a href="#forgot">{{ _("Forgot Password?") }}</a></p>
 	</div>
-</section>
-<section class='for-signup'>
-	<div class="login-content page-card" style="margin-top: 20px;">
-	<form class="form-signin form-signup hide" role="form">
-		<div class="page-card-head">
-			<span class="indicator blue" data-text="{{ _('Sign Up') }}"></span>
-		</div>
-		<input type="text" id="signup_fullname"
-			class="form-control" placeholder="{{ _('Full Name') }}" required autofocus>
-		<input type="email" id="signup_email"
-			class="form-control" placeholder="{{ _('Email Address') }}" required>
-		<button class="btn btn-sm btn-primary btn-block btn-signup" type="submit">{{ _("Sign up") }}</button>
-	</form>
-	</div>
-	<div class='form-footer'>
-		<a href="#login" class="blue">{{ _("Have an account? Login") }}</a>
-	</div>
-</section>
 
-<section class='for-forgot'>
-	<div class="login-content page-card" style="margin-top: 20px;">
-	<form class="form-signin form-forgot hide" role="form">
-		<div class="page-card-head">
-			<span class="indicator blue" data-text="{{ _('Forgot Password') }}"></span></div>
-		<input type="email" id="forgot_email"
-			class="form-control" placeholder="{{ _('Email Address') }}" required autofocus>
-		<button class="btn btn-sm btn-primary btn-block btn-forgot" type="submit">{{ _("Reset Password") }}</button>
-	</form>
-	</div>
-	<div class='form-footer'>
-		<a href="#login">{{ _("Back to Login") }}</a>
-	</div>
-</section>
-</div>
-{% endblock %}-->
 
-<!-- {% block script %} -->
-	<!-- <script>{% include "templates/includes/login/login.js" %}</script> -->
-<!-- {% endblock %} -->
 
-<!-- {% block sidebar %}{% endblock %} -->
+{% block script %}
+	<script>{% include "templates/includes/login/login.js" %}</script>
+{% endblock %}
+
+{% block sidebar %}{% endblock %}
