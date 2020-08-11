@@ -6623,7 +6623,7 @@ h4.modal-title {
 }
 
 .page-content-wrapper {
-  margin: -2 !important;
+  margin: 0 !important;
 }
 
 .container {
