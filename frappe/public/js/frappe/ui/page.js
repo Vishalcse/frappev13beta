@@ -1095,4 +1095,4 @@ frappe.ui.Page = Class.extend({
 		}
 	}
 	
-});
+);
