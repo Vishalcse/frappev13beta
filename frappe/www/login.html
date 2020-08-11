@@ -1,27 +1,17 @@
 
 
-<!-- {% extends "templates/web.html" %} -->
+ {% extends "templates/web.html" %} 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="login (1).css">
-	<title>Document</title>
-</head>
 
-<!-- </html> -->
-<!-- {% block style %} -->
-<!-- <style> -->
-	<!-- /* {% include "templates/includes/login/login.css" %} */ -->
-	<!-- /* <link rel="" */ -->
-<!-- </style> -->
-<!-- {% endblock %}
+{% block style %} 
+ <style> 
+	 {% include "templates/includes/login/login.css" %} 
+</style> 
+{% endblock %}
 
-{% block page_content %} -->
-<!-- {{ for_test }} -->
-<body>
+{% block page_content %} 
+{{ for_test }} 
+
 	
 
 <div style='min-height: 360px'>
@@ -31,7 +21,7 @@
 			<p class="text-muted">{{ _("You need to enable JavaScript for your app to work.") }}<br>{{ _("To enable it follow the instructions in the following link: {0}").format("<a href='https://enable-javascript.com/'>enable-javascript.com</a></p>") }}
 		</div>
 	</noscript>
-<!--<section class='for-login'>
+<section class='for-login'>
 	<div class="login-content page-card" style="margin-top: 30px;">-->
 		
 		<div class="login-container">
@@ -39,7 +29,7 @@
 			  <img src="/assets/frappe/images/image3.jpg" alt="Side Img" class="side-img" />
 			</div> -->
 		
-			<!--<div class="page-card-head">
+			<div class="page-card-head">
 				<span class="indicator blue" data-text="{{ _('Login') }}"></span>
 			</div>-->
 			<div class="main">
@@ -145,5 +135,3 @@
 <!-- {% endblock %} -->
 
 <!-- {% block sidebar %}{% endblock %} -->
-</body>
-</html>
