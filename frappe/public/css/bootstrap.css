@@ -6621,3 +6621,12 @@ h4.modal-title {
   text-decoration: none;
   background-color:#8000a0 !important;
 }
+
+.page-content-wrapper{
+  margin: 0 !important;
+}
+
+.container{
+  padding: 0 !important;
+  margin: 0 !important;
+}
