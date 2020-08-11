@@ -48,6 +48,7 @@ body {
 }
 .header-highlight {
   color: #750380;
+  font-weight: 500;
 }
 .login-sub-header {
   text-align: center;
