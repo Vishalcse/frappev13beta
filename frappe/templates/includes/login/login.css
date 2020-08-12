@@ -7,7 +7,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   position: absolute;
-  background-color: #9e9898;
+  background-color: #e3d7d7;
   width: 100%;
   box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.06);
   height: 100%;
@@ -48,8 +48,6 @@ body {
 }
 .header-highlight {
   color: #750380;
-  font-weight: 500;
-  font-size: smaller;
 }
 .login-sub-header {
   text-align: center;
