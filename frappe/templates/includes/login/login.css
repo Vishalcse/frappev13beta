@@ -41,7 +41,7 @@ body {
 }
 .login-header {
   text-align: center;
-  font-size: 60px;
+  font-size: 52px;
   margin-top: 10px;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -108,8 +108,10 @@ body {
 }
 
 .company-logo {
-  margin: 0px auto 25px auto;
+  margin: -12px auto -41px auto;
   display: block;
+  max-width: 35%;
+  height: auto;
 }
 /*.view-password-button {
   position: absolute;
