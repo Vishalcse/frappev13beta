@@ -7,7 +7,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   position: absolute;
-  background-color: #e3d7d7;
+  background-color: #f1eeee;
   width: 100%;
   box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.06);
   height: 100%;
@@ -108,7 +108,9 @@ body {
 .company-logo {
   margin: -12px auto -41px auto;
   display: block;
-  max-width: 35%;
+  max-width: 19%;
+  right: 86%;
+  bottom: 221px;
   height: auto;
 }
 /*.view-password-button {
