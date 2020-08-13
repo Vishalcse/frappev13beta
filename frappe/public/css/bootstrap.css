@@ -6625,3 +6625,9 @@ h4.modal-title {
 .text-extra-muted{
   color: red !important;
 }
+
+.btn-default {
+  color: white !important;
+  background-color: #8000a0 !important;
+  border-color: #310658eb !important;
+}
