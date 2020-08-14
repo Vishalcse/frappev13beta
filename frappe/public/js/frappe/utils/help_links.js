@@ -1,4 +1,4 @@
-frappe.provide('frappe.help.help_links');
+/*frappe.provide('frappe.help.help_links');
 
 frappe.help.help_links['data-import-tool'] = [
 	{ label: 'Importing and Exporting Data', url: 'https://frappe.github.io/erpnext/user/manual/en/setting-up/data/data-import-tool.html' },
