@@ -2661,7 +2661,7 @@ frappe.notify     = (string, options) => {
 	})
 }
 
-frappe.chat.render = (render = true, force = false) =>
+/*frappe.chat.render = (render = true, force = false) =>
 {
 	frappe.log.info(`${render ? "Enable" : "Disable"} Chat for User.`)
 
