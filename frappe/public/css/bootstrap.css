@@ -6642,5 +6642,5 @@ h4.modal-title {
 }
 
 [data-route="point-of-sale"].bg-primary {
-  background-color: #8000a0;
+  background-color: #8000a0 !important;
 }
