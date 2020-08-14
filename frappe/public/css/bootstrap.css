@@ -6640,3 +6640,7 @@ h4.modal-title {
 .element.style{
   color: purple !important;
 }
+
+[data-route="point-of-sale"].bg-primary {
+  background-color: #8000a0;
+}
