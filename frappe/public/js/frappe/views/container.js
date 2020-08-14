@@ -2,7 +2,7 @@
 // MIT License. See license.txt
 
 // page container
-/*frappe.provide('frappe.pages');
+frappe.provide('frappe.pages');
 frappe.provide('frappe.views');
 
 window.cur_page = null;
@@ -106,4 +106,4 @@ frappe.views.Container = Class.extend({
 	},
 });
 
-*/
+
