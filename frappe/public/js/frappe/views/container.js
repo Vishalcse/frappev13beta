@@ -28,7 +28,7 @@ frappe.views.Container = Class.extend({
 			frappe.breadcrumbs.rename(dt, old_name, new_name);
 		});
 	},
-	add_page: function(label) {
+	/*add_page: function(label) {
 		var page = $('<div class="content page-container"></div>')
 			.attr('id', "page-" + label)
 			.attr("data-page-route", label)
@@ -44,7 +44,7 @@ frappe.views.Container = Class.extend({
 		if(this.page && this.page.label === label) {
 			$(this.page).trigger('show');
 			return;
-		}
+		}*/
 
 		var me = this;
 		if(label.tagName) {
