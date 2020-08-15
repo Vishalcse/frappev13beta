@@ -29,15 +29,13 @@ frappe.views.Container = Class.extend({
 		});
 	},
 	add_page: function(label) {
-		/*var page = $('<div class="content page-container"></div>')
-			.attr('id', "page-" + label)
-			.attr("data-page-route", label)
+		var page = $('<div class="content page-container"></div>')
+			.attr('id', "page-")
+			.attr("data-page-route")
 			.hide()
 			.appendTo(this.container).get(0);
-		page.label = label;
-		frappe.pages[label] = page;
 
-		return page;*/
+		return page;
 	},
 	change_to: function(label) {
 		cur_page = this;
