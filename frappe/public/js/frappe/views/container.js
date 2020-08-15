@@ -24,18 +24,18 @@ frappe.views.Container = Class.extend({
 			$("body").attr("data-sidebar", me.has_sidebar() ? 1 : 0);
 		});
 
-		$(document).bind('rename', function(event, dt, old_name, new_name) {
+		/*$(document).bind('rename', function(event, dt, old_name, new_name) {
 			frappe.breadcrumbs.rename(dt, old_name, new_name);
-		});
+		});*/
 	},
 	add_page: function(label) {
 		var page = $('<div class="content page-container"></div>')
-			/*.attr('id', "page-" + label)
+			.attr('id', "page-" + label)
 			.attr("data-page-route", label)
 			.hide()
 			.appendTo(this.container).get(0);
 		page.label = label;
-		frappe.pages[label] = page;*/
+		frappe.pages[label] = page;
 
 		return page;
 	},
