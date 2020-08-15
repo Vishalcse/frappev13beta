@@ -26,7 +26,7 @@ frappe.views.Container = Class.extend({
 
 		/*$(document).bind('rename', function(event, dt, old_name, new_name) {
 			frappe.breadcrumbs.rename(dt, old_name, new_name);
-		});*/
+		});
 	},
 	add_page: function(label) {
 		var page = $('<div class="content page-container"></div>')
@@ -56,7 +56,7 @@ frappe.views.Container = Class.extend({
 		if(!page) {
 			console.log(__('Page not found')+ ': ' + label);
 			return;
-		}
+		}*/
 
 		// hide dialog
 		if(window.cur_dialog && cur_dialog.display && !cur_dialog.keep_open) {
