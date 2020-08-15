@@ -24,12 +24,12 @@ frappe.views.Container = Class.extend({
 			$("body").attr("data-sidebar", me.has_sidebar() ? 1 : 0);
 		});
 
-		/*$(document).bind('rename', function(event, dt, old_name, new_name) {
+		$(document).bind('rename', function(event, dt, old_name, new_name) {
 			frappe.breadcrumbs.rename(dt, old_name, new_name);
 		});
 	},
 	add_page: function(label) {
-		var page = $('<div class="content page-container"></div>')
+		/*var page = $('<div class="content page-container"></div>')
 			.attr('id', "page-" + label)
 			.attr("data-page-route", label)
 			.hide()
@@ -37,7 +37,7 @@ frappe.views.Container = Class.extend({
 		page.label = label;
 		frappe.pages[label] = page;
 
-		return page;
+		return page;*/
 	},
 	change_to: function(label) {
 		cur_page = this;
@@ -56,7 +56,7 @@ frappe.views.Container = Class.extend({
 		if(!page) {
 			console.log(__('Page not found')+ ': ' + label);
 			return;
-		}*/
+		}
 
 		// hide dialog
 		if(window.cur_dialog && cur_dialog.display && !cur_dialog.keep_open) {
