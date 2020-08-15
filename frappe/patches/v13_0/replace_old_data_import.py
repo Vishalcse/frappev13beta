@@ -17,4 +17,4 @@ def execute():
 	frappe.rename_doc("DocType", "Data Import", "Data Import Legacy")
 	frappe.db.commit()
 	frappe.db.sql("DROP TABLE IF EXISTS `tabData Import`")
-	# frappe.rename_doc("DocType", "Data Import Beta", "Data Import")
+	frappe.rename_doc("DocType", "Data Import Beta", "Data Import")
