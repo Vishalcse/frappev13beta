@@ -176,7 +176,7 @@
    "default": "0",
    "fieldname": "beta",
    "fieldtype": "Check",
-    "label": " "
+   "label": "Beta"
   },
   {
    "fieldname": "fields_section_break",
