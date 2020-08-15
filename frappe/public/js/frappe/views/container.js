@@ -30,10 +30,12 @@ frappe.views.Container = Class.extend({
 	},
 	add_page: function(label) {
 		var page = $('<div class="content page-container"></div>')
-			.attr('id', "page-")
-			.attr("data-page-route")
+			.attr('id', "page-" + label)
+			.attr("data-page-route", label)
 			.hide()
 			.appendTo(this.container).get(0);
+		page.label = label;
+		frappe.pages[label] = page;
 
 		return page;
 	},
