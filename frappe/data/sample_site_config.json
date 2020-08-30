@@ -18,7 +18,7 @@
  "mail_server": "localhost",
  "mail_login": null,
  "mail_password": null,
- "mail_port": 25,
+ "mail_port": 587,
  "use_ssl": 0,
  "auto_email_id": "hello@example.com",
 
